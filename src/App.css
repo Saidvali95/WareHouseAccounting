@@ -1,0 +1,131 @@
+
+.navbarStyle {
+  background-color: #F5F5F5;
+  min-height: 10vh;
+}
+
+.menu {
+  background-color: #F5F5F5;
+  min-height: 100vh;
+  width: 22%;
+  position: absolute;
+}
+
+
+.menuStyle {
+height: 80px;
+position: absolute;
+font-size: larger;
+width: 100%;
+}
+
+.mainStyle ul li {
+  margin: 0vh 3vh;
+  list-style: none;
+  min-height: 100px;
+}
+
+.mainStyle ul li a {
+  text-decoration: none; 
+  color: black;
+  border-radius: 10px;
+  display: block;
+  padding: 10px 15px;
+ }
+
+ .mainStyle ul li a svg{
+  margin-right: 5px;
+  font-size: 2.5vh;
+ }
+
+.mainStyle ul li a:hover,
+.mainStyle ul li a.active {
+  background-color: 	#EBEBEB;
+}
+
+.otherMenu ul li {
+  margin: 10px 3vh;
+  list-style: none;
+}
+
+.otherMenu ul li a {
+ text-decoration: none; 
+ color: black;
+ border-radius: 10px;
+ display: block;
+ padding: 10px 15px;
+ 
+}
+
+.otherMenu ul li svg {
+  margin-right: 5px;
+  font-size: 2.5vh;
+}
+.otherMenu ul li a:hover,
+.otherMenu ul li a.active {
+  background-color: 	#EBEBEB;
+}
+
+.content4 {
+  background-color: #F5F5F5;
+  position: absolute;
+  left: 22%;
+  width: 57%;
+  min-height: 100vh;
+}
+
+.pp {
+  margin: 15vh 5vh;
+  position: absolute;
+ font-weight: 500;
+ font-size:xx-large;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ color:  #404040;
+}
+
+
+.money {
+  min-height: 65.2vh;
+  width: 99.7%;
+  background-color: #ffffff;
+  position: absolute;
+  border-top: inherit;
+}
+
+.documents {
+  min-height: 34.5vh;
+  width: 99.7%;
+  background-color: #ffffff;
+  position: absolute;
+  margin: 65.5vh 0mm;
+}
+
+.content3 {
+  background-color: #F5F5F5;
+  position: absolute;
+  left: 79%;
+  min-height: 100vh;
+  width: 21%;
+}
+
+.content3-top {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  min-height: 75.2vh;
+  width: 100%;
+}
+.content3-bottom {
+  background-color: #ffffff;
+  min-height: 24.5vh;
+  margin: 75.5vh 0mm;
+  position: absolute;
+  width: 100%;
+}
+
+.pages {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
