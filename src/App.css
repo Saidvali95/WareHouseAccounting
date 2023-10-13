@@ -2,6 +2,72 @@
 .navbarStyle {
   background-color: #F5F5F5;
   min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.leftNavbarStyle {
+  margin-left: 25vh;
+  position: relative;
+  width: 35%;
+  min-height: 2.2vh;
+  display: flex;
+  font-size: larger;
+  align-items: center;
+}
+
+.leftNavbarStyle div a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+}
+
+.leftNavbarStyle div a:hover,
+.leftNavbarStyle div a.active{
+  background-color: 	#EBEBEB;
+  border-radius: 5px;
+
+}
+
+.loadData {
+  padding: 0 12vh;
+}
+
+.ld {
+  padding: 0 1vh;
+}
+
+
+.rightNavbarStyle {
+  margin-left: 25vh;
+  position: relative;
+  width: 25%;
+  min-height: 2.2vh;
+  display: flex;
+  font-size: larger;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightNavbarStyle div a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+}
+
+.rightNavbarStyle div a:hover,
+.rightNavbarStyle div a.active{
+  background-color: 	#EBEBEB;
+  border-radius: 5px;
+}
+
+.userpage {
+    padding: 0 10vh;
+}
+
+.logo img {
+  height: 8vh;
+  margin-left: 5rem;
 }
 
 .menu {
@@ -17,6 +83,7 @@ height: 80px;
 position: absolute;
 font-size: larger;
 width: 100%;
+margin-top: 3rem;;
 }
 
 .mainStyle ul li {
@@ -29,7 +96,8 @@ width: 100%;
   text-decoration: none; 
   color: black;
   border-radius: 10px;
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 10px 15px;
  }
 
@@ -52,9 +120,9 @@ width: 100%;
  text-decoration: none; 
  color: black;
  border-radius: 10px;
- display: block;
+ display: flex;
  padding: 10px 15px;
- 
+ align-items: center;
 }
 
 .otherMenu ul li svg {
